@@ -1,6 +1,6 @@
 # Insight Project - KC House Insights
 
-> Status: Developing by cicles. Continuos updates. (emoji warning)
+> Status: Developing by cicles. In continuos updates. ⚠️
 
 Esse Projeto de Insights foi desenvolvido por mim, ministrado pela Comunidade DS.
 
@@ -72,8 +72,8 @@ Os resultados das questões de negócio estão explícitos em dois dataframes, (
 ### **4.0 Lessons Learned**
  * Planejamento da Solução;
  * Análise Exploratória de Dados com pandas_profiling;
- * Tratamento de Outliers
- * Validação de Hipóteses
+ * Tratamento de Outliers;
+ * Validação de Hipóteses;
  
 ### **5.0 Next Steps to Improve**
 **Para 2º Ciclo:**
