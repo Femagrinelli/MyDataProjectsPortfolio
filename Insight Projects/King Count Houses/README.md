@@ -14,7 +14,7 @@ O projeto tenta responder da melhor maneira, duas questões de negócio:
 **2)** Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço ?
 
 **3)** Esse projeto também busca validar 8 hipóteses através da análise exploratória de dados:
-* **H1:** Imóveis que possuem boa vista para água, são 30% mais caros, na média, dos que não possuem;
+* **H1:** Imóveis que possuem boa vista para água, são 30% mais caros, na média, dos que não possuem boa vista para água;
 * **H2:** Imóveis com data de construção anterior a 1955, são 50% mais baratos, na média, dos que com data de contrução posterior a 1955;
 * **H3:** Imóveis sem porão possuem sqrt_lot 50% maiores do que com porão;
 * **H4:** O crescimento do preço dos imóveis YoY (Year over Year) é de 10%;
@@ -47,13 +47,13 @@ Os resultados das questões de negócio estão explícitos em dois dataframes, (
 **3) Validação de Hipóteses:**
 
 **H1: False** 
-> Imóveis que possuem boa vista para água são mais 200% na média, mais caros do que os que não possuem vista para água.
+> Imóveis que possuem boa vista para água são mais 160% mais caros, na média, do que os que não possuem boa vista para água.
 
 **H2: False** 
 > Imóveis com data de construção anterior a 1955, são menos de 1% mais baratos, na média, dos que com data de contrução posterior;
 
 **H3: False** 
-> Imóveis sem porão possuem sqrt_lot 21,75% maiores do que com porão;
+> Imóveis sem porão possuem sqrt_lot 88,17% maiores do que com porão;
 
 **H4: False** 
 > O crescimento do preço dos imóveis YoY (Year over Year) é de 0,7%;
@@ -77,6 +77,8 @@ Os resultados das questões de negócio estão explícitos em dois dataframes, (
  
 ### **5.0 Next Steps to Improve**
 **Para 2º Ciclo:**
- - Integração dos Dados (ETL);
+ 
  - Criação e validação de mais hipóteses;
+ - Visualização dos Boxsplots com Seaborn;
+ - Integração dos Dados (ETL);
  - Visualização de Dados usando Streamlit;
