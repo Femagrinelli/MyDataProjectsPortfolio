@@ -1,30 +1,34 @@
 # Insight Project - KC House Insights
 
-> Status: Developing by cicles. In continuos updates  ⚠️
+> Status: Developing by cicles (Version 2). Finish ✅
 
-Esse Projeto de Insights foi desenvolvido por mim, ministrado pela Comunidade DS.
+This Insights Project was developed that me and taught of the CommunityDS
 
 ## **1.0 Business Problem**
-Esse projeto busca encontrar as melhores oportunidades de adquirir (dentro do portfólio disponível) imóveis para a maximização do lucro da empresa House Rocket, através da análise de dados.
-### **1.1 Business Questions**
-O projeto tenta responder da melhor maneira, duas questões de negócio: 
+This project searches to find the best opportunities to acquire (inside of available portfolio) properties for maximizing the gain of House Rocket company, through the data analysis.
 
-**1)** Quais são os imóveis que a House Rocket deveria comprar ?
+### **1.1 Business Questions** 
+The project tries to answer the best way, two business questions:
 
-**2)** Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço ?
+**1)** How many properties should House Rocket buy?
 
-**3)** Esse projeto também busca validar 8 hipóteses através da análise exploratória de dados:
-* **H1:** Imóveis que possuem boa vista para água, são 30% mais caros, na média, dos que não possuem boa vista para água;
-* **H2:** Imóveis com data de construção anterior a 1955, são 50% mais baratos, na média, dos que com data de contrução posterior a 1955;
-* **H3:** Imóveis sem porão possuem sqrt_lot 50% maiores do que com porão;
-* **H4:** O crescimento do preço dos imóveis YoY (Year over Year) é de 10%;
-* **H5:** Imóveis com 3 banheiros tem um crescimento médio MoM (Month over Month) de 15%;
-* **H6:** Imóveis renovados são 15% ou mais caros em relação a média total;
-* **H7:** Imóveis com mais de 3 quarto são 20% ou mais caros em relação a média total;
-* **H8:** Imóveis com boas condições correspondem a 30% ou mais do preço total de imóveis;
+**2)** One time the properties were purchased, which was the best moment to sell them, and at which price?
+
+**3)** This project searches also to validate 8 hypothesis through the data exploratory analysis:
+
+- **H1:** Properties that have a view of the water are 100% or more expensive, on average than properties that do not have a view of the water;
+- **H2:** Propeties that have good view of the water are 80% or more expensive, on average than properties that do not have a good view of the water;
+- **H3:** Properties built before 1955 is 50% cheaper, on average than properties built after 1955;
+- **H4:** Properties without a basement have 50% larger land area than properties with a basement;
+- **H5:** The crease YoY of the properties price is the 10%;
+- **H6:** Properties with 3 bathroom have a average crease MoM is the 15%;
+- **H7:** Renovated properties are 15% or more expensive in relation to the average price of all properties;
+- **H8:** Properties with more the 3 bedrooms are 20% or more expensive in relation to the average price of all properties;
+- **H9:** Properties with good condition are 15% or more expensive in relation to the averege price of all properties;
+- **H10:** Properties with 2 or more floors are 15% more expensive than properties with less than 2 floors;
 
 ## **2.0 Solution Strategy**
-Meus passos estratégicos para solucionar os problemas de negócio em questão foram:
+My strategical steps to solve the business problem in question was be:
 
 **Step 1: Business Understanding**
 
@@ -38,47 +42,56 @@ Meus passos estratégicos para solucionar os problemas de negócio em questão f
 
 **Step 6: Exploratory Data Analysis**
 
-A abordagem dos dados do projeto está contida no notebook.
+>The project data approach is contained in the notebook
+
+### **2.1 Versions**
+- **1st Version**: 1 notebook with development of the entire solution to the problem in a linear fashion.
+- **2nd Version**: 1 script organized into functions and printed on the console for easy observation (more academic approach) and 1 application folder created for viewing the dashboard on Streamlit with their respective files for your operation.
 
 ## **3.0 Business Results**
 **1 e 2) Business Questions:**
-Os resultados das questões de negócio estão explícitos em dois dataframes, (1) properties_to_be_purchased.csv e (2) gain_from_sale_of_properties.csv. Nesses dataframes possuem todos os imóveis que são ideais para serem adquiridos e por quais valores poderiam ser vendidos, com o lucro disponível.
+The results of the business questions are explicit in two dataframes, (1) properties_to_be_purchased.csv and (2) gain_from_sale_of_properties.csv. In these dataframes we have all the properties that are perfect to buy and for which values they could be sold, with the available gain.
 
-**3) Validação de Hipóteses:**
+**3) Hypothesis Validation:**
 
-**H1: False** 
-> Imóveis que possuem boa vista para água são mais 160% mais caros, na média, do que os que não possuem boa vista para água.
+**H1: True** 
+> Properties that have water view are 162.71% more expensive, on average, than those do not have water view.
 
-**H2: False** 
-> Imóveis com data de construção anterior a 1955, são menos de 1% mais baratos, na média, dos que com data de contrução posterior;
+**H2: True** 
+> Properties that have good water view are 212.42% more expensive, on average, than those do not have good water view.
 
 **H3: False** 
-> Imóveis sem porão possuem sqrt_lot 88,17% maiores do que com porão;
+> Properties with date built before 1955 are less the 1% more cheaper, on average, than those with date built after 1955.
 
 **H4: False** 
-> O crescimento do preço dos imóveis YoY (Year over Year) é de 0,7%;
+> Properties without a basement have a land area 21.75% larger than those with a basement.
 
-**H5: False** 
-> Imóveis com 3 banheiros tem um crescimento médio MoM (Month over Month) de 9,66%;
+**H5: False**
+> Year-over-year property price growth is 0.7%.
 
-**H6: False** 
-> Imóveis renovados são 40,92% ou mais caros em relação a média total;
+**H6: False**
+> Properties with 3 bathrooms had an average MoM (month to month) decrease of 1.14%.
 
-**H7: True** 
-> Imóveis com mais de 3 quarto são 20% ou mais caros em relação a média total;
+**H7: True**
+> Renovated properties are 40.92% or more expensive compared to the average price of all properties.
 
-**H8: False** 
-> Imóveis com boas condições correspondem a 30% ou mais do preço total de imóveis;
-### **4.0 Lessons Learned**
- * Planejamento da Solução;
- * Análise Exploratória de Dados com pandas_profiling;
- * Tratamento de Outliers;
- * Validação de Hipóteses;
- 
-### **5.0 Next Steps to Improve**
-**Para 2º Ciclo:**
- 
- - Criação e validação de mais hipóteses;
- - Visualização dos Boxsplots com Seaborn;
- - Integração dos Dados (ETL);
- - Visualização de Dados usando Streamlit;
+**H8: True**
+> Properties with more than 3 bedrooms are 24.23% more expensive compared to the average price of all properties.
+
+**H9: False**
+> Properties in good condition are 13.15% more expensive compared to the average price of all properties.
+
+**H10: False**
+> Properties with more than 2 floors are 41.69% more expensive than properties with less than 2 floors.
+
+## **4.0 Lessons Learned**
+  * Solution Planning;
+  * Exploratory Data Analysis with pandas_profiling;
+  * Outliers treatment;
+  * Hypothesis validation;
+  * Data Integration (ETL);
+  * Data visualization using Streamlit;
+  * Cloud Application [Heroku];
+
+## **6.0 Business Results**
+If the company buys and sells the properties shown in the response dataframes, the profit will be R$5477321.74.
