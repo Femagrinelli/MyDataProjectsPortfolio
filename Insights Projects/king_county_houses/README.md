@@ -1,4 +1,4 @@
-<h1><center><b>Insight Project - King County House Sales Insights</b></center></h1>
+<h1><p align= "center"><b>Insight Project - King County House Sales Insights</b></p></h1>
 
 [![King County House Sales](KC_houses.jpg)](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
@@ -10,7 +10,7 @@
 <div style= "margin: 15px;"></div>
 
 # 1 - Business Problem
-This project searches to find the best opportunities to acquire (inside of available portfolio) properties in King Count (USA) for maximizing the gain of House Rocket company, through the data analysis.
+This project searches to find the best opportunities to acquire (inside of available portfolio) properties in King County (USA) for maximizing the gain of House Rocket company, through the data analysis.
 
 ## 1.1  - Business Questions 
 The project tries to answer the best way, two business questions:
@@ -107,4 +107,4 @@ The results of the business questions are explicit in two dataframes, (1) proper
 <div style= "margin: 15px;"></div>
 
 # 5 - Business Results
-If the company buys and sells the properties shown in the response dataframes, the profit will be R$5477321.74.
+If the company buys and sells the properties shown in the response dataframes, the <b>profit</b> will be <b>R$5.477.321,74.</b>
