@@ -1,20 +1,25 @@
-# Insight Project - KC House Insights
+<h1><center><b>Insight Project - King County House Sales Insights</b></center></h1>
+
+[![King County House Sales](KC_houses.jpg)](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
 > Status: Developing by cicles (Version 2). Finish ✅
 
-This Insights Project was developed that me and taught of the CommunityDS
+<p align="right"><i>This Insights Project was developed that me and taught of the CommunityDS</i></p>
 
-## **1.0 Business Problem**
-This project searches to find the best opportunities to acquire (inside of available portfolio) properties for maximizing the gain of House Rocket company, through the data analysis.
+<hr>
+<div style= "margin: 15px;"></div>
 
-### **1.1 Business Questions** 
+# 1 - Business Problem
+This project searches to find the best opportunities to acquire (inside of available portfolio) properties in King Count (USA) for maximizing the gain of House Rocket company, through the data analysis.
+
+## 1.1  - Business Questions 
 The project tries to answer the best way, two business questions:
 
 **1)** How many properties should House Rocket buy?
 
 **2)** One time the properties were purchased, which was the best moment to sell them, and at which price?
 
-**3)** This project searches also to validate 8 hypothesis through the data exploratory analysis:
+**3)** This project searches also to validate 10 hypothesis through the data exploratory analysis:
 
 - **H1:** Properties that have a view of the water are 100% or more expensive, on average than properties that do not have a view of the water;
 - **H2:** Propeties that have good view of the water are 80% or more expensive, on average than properties that do not have a good view of the water;
@@ -26,29 +31,33 @@ The project tries to answer the best way, two business questions:
 - **H8:** Properties with more the 3 bedrooms are 20% or more expensive in relation to the average price of all properties;
 - **H9:** Properties with good condition are 15% or more expensive in relation to the averege price of all properties;
 - **H10:** Properties with 2 or more floors are 15% more expensive than properties with less than 2 floors;
+<hr>
+<div style= "margin: 15px;"></div>
 
-## **2.0 Solution Strategy**
+# 2 - Solution Strategy
 My strategical steps to solve the business problem in question was be:
 
-**Step 1: Business Understanding**
+1) **Business Understanding**
 
-**Step 2: Solution Planning**
+2) **Solution Planning**
 
-**Step 3: Data Collect**
+3) **Data Collect**
 
-**Step 4: Data Description**
+4) **Data Description**
 
-**Step 5: Data Cleaning and Data Transformation**
+5) **Data Cleaning and Data Transformation**
 
-**Step 6: Exploratory Data Analysis**
+6) **Exploratory Data Analysis**
 
->The project data approach is contained in the notebook
+P.S. _The project data approach is contained in the notebook_
 
-### **2.1 Versions**
+## 2.1 - Versions
 - **1st Version**: 1 notebook with development of the entire solution to the problem in a linear fashion.
 - **2nd Version**: 1 script organized into functions and printed on the console for easy observation (more academic approach) and 1 application folder created for viewing the dashboard on Streamlit with their respective files for your operation.
+<hr> 
+<div style= "margin: 15px;"></div>
 
-## **3.0 Business Results**
+# 3 - Business Results
 **1 e 2) Business Questions:**
 The results of the business questions are explicit in two dataframes, (1) properties_to_be_purchased.csv and (2) gain_from_sale_of_properties.csv. In these dataframes we have all the properties that are perfect to buy and for which values they could be sold, with the available gain.
 
@@ -83,8 +92,10 @@ The results of the business questions are explicit in two dataframes, (1) proper
 
 **H10: False**
 > Properties with more than 2 floors are 41.69% more expensive than properties with less than 2 floors.
+<hr> 
+<div style= "margin: 15px;"></div>
 
-## **4.0 Lessons Learned**
+# 4 - Lessons Learned
   * Solution Planning;
   * Exploratory Data Analysis with pandas_profiling;
   * Outliers treatment;
@@ -92,6 +103,8 @@ The results of the business questions are explicit in two dataframes, (1) proper
   * Data Integration (ETL);
   * Data visualization using Streamlit;
   * Cloud Application [Heroku];
+<hr> 
+<div style= "margin: 15px;"></div>
 
-## **6.0 Business Results**
+# 5 - Business Results
 If the company buys and sells the properties shown in the response dataframes, the profit will be R$5477321.74.
