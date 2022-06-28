@@ -22,7 +22,7 @@ Various details were provided, such as type of store, variety of products offere
 
 However, it is necessary to assume some behaviors to solve the problem:
 
-- **Conmpetition Distance**: It was expressed in meters, but in some records it was zero. Therefore, 'Zero Competition Distance' was the same as 'No Competition Proximity'. But for ML algorithms, this input is a bias. In this case, I assumed a fixed value (200,000 m) higher than the highest value in the dataset.
+- **Competition Distance**: It was expressed in meters, but in some records it was zero. Therefore, 'Zero Competition Distance' was the same as 'No Competition Proximity'. But for ML algorithms, this input is a bias. In this case, I assumed a fixed value (200,000 m) higher than the highest value in the dataset.
 - **Assortment**: I assumed that there is a hierarchy between the types. Thus, stores with Type C Assortment must also offer Types A and B.
 - **Store Open**: I removed all the lines that indicate Closed Store, as we also had zero sales on the same day.
 - **Sales Prediction**: According to the CFO, I assumed they would provide the total sales for each store at the end of the sixth week.

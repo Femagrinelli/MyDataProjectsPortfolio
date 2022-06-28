@@ -108,3 +108,6 @@ The results of the business questions are explicit in two dataframes, (1) proper
 
 # 5 - Business Results
 If the company buys and sells the properties shown in the response dataframes, the <b>profit</b> will be <b>R$5.477.321,74.</b>
+<div style= "margin: 50px;"></div>
+<center>Thank you!</center>
+<center>Rodrigo Rangel</center>

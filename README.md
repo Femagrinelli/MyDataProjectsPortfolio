@@ -36,8 +36,13 @@ My goal is to improve my knowledge more and more by carrying out more projects f
 
 ### [Rossmann Sales Predict]( https://github.com/rodrigo-rngl/MyDataProjectsPortfolio/blob/master/Data%20Science%20Projects/rossmann_sales_predict )
 
-## Data Analysis - Insight Projets:
+In this project, I developed a Machine Learning model capable of predicting sales for all stores of a large European drugstore, with the objective of defining how much the company would collect in 6 weeks ahead.
+The performance of this model, which has only **9.3% of average error**, allows the manager to take more structured and accurate management measures.
 
-### [King County Houses]( https://gitlab.com/datascience-community/pa003_churn_predict ) 
+## Data Analysis - Insights Projets:
+
+### [King County Houses]( https://github.com/rodrigo-rngl/MyDataProjectsPortfolio/tree/master/Insights%20Projects/king_county_houses ) 
+
+In this project, I selected the best properties in King County, USA for purchase and sale, through Data Analysis and hypothesis validation. This analysis generated a profit for the real estate company of $1,040,406.06
 
 ## Data Base Projects:
